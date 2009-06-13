@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="args.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="59" topLine="18" />
+	</File>
+	<File name="common.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="1159" topLine="50" />
+	</File>
+	<File name="config.hpp" open="1" top="0" tabpos="6">
+		<Cursor position="161" topLine="0" />
+	</File>
+	<File name="langs\cpp.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="209" topLine="1" />
+	</File>
+	<File name="langs\java.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="490" topLine="0" />
+	</File>
+	<File name="langs\js.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="langs\js.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="159" topLine="0" />
+	</File>
+	<File name="langs\php.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="295" topLine="0" />
+	</File>
+	<File name="langs\python.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="211" topLine="0" />
+	</File>
+	<File name="langs\python.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="417" topLine="3" />
+	</File>
+	<File name="langs\vb.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="198" topLine="1" />
+	</File>
+	<File name="langs\vb.hpp" open="1" top="0" tabpos="7">
+		<Cursor position="432" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2733" topLine="130" />
+	</File>
+	<File name="parser.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2604" topLine="125" />
+	</File>
+	<File name="parser.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="138" topLine="0" />
+	</File>
+	<File name="quoted.cpp" open="1" top="1" tabpos="10">
+		<Cursor position="213" topLine="0" />
+	</File>
+	<File name="quoted.hpp" open="1" top="0" tabpos="5">
+		<Cursor position="126" topLine="0" />
+	</File>
+	<File name="string.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1536" topLine="64" />
+	</File>
+	<File name="string.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="6207" topLine="329" />
+	</File>
+	<File name="touplparser.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="4503" topLine="194" />
+	</File>
+	<File name="touplparser.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="4218" topLine="189" />
+	</File>
+</CodeBlocks_layout_file>

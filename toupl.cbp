@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="toupl" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\toupl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\toupl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=pentium-m" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="args.cpp" />
+		<Unit filename="args.hpp" />
+		<Unit filename="common.hpp" />
+		<Unit filename="config.hpp" />
+		<Unit filename="langs\cpp.cpp" />
+		<Unit filename="langs\cpp.hpp" />
+		<Unit filename="langs\csharp.cpp" />
+		<Unit filename="langs\csharp.hpp" />
+		<Unit filename="langs\java.cpp" />
+		<Unit filename="langs\java.hpp" />
+		<Unit filename="langs\js.cpp" />
+		<Unit filename="langs\js.hpp" />
+		<Unit filename="langs\lua.cpp" />
+		<Unit filename="langs\lua.hpp" />
+		<Unit filename="langs\php.cpp" />
+		<Unit filename="langs\php.hpp" />
+		<Unit filename="langs\python.cpp" />
+		<Unit filename="langs\python.hpp" />
+		<Unit filename="langs\vb.cpp" />
+		<Unit filename="langs\vb.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="parser.cpp" />
+		<Unit filename="parser.hpp" />
+		<Unit filename="quoted.cpp" />
+		<Unit filename="quoted.hpp" />
+		<Unit filename="string.cpp" />
+		<Unit filename="string.hpp" />
+		<Unit filename="touplparser.cpp" />
+		<Unit filename="touplparser.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,9 @@
+?%
+var name="cNoNiM недооценивает языка bga :(";
+ 
+for(var i=0;i<name.length;++i)
+{
+  %?%name.substring(i)+name.substr(0,i)%
+?%
+}
+%?

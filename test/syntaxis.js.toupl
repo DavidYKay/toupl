@@ -1,0 +1,60 @@
+Hello! This full test for Toupl v 0.9
+Text Oriented Universal Programming Language
+
+/%
+First, you must know how write a comments. This is block comment
+%/
+//% And this is line comment
+
+This is varable %simpleVarable%
+Also can content dufficult evolution %Math.sin(1+3)*Math.tan(5)%
+
+[%This text outputed, if &%varable00%& is not equalent null%]
+
+[%This text outputed, if &%varable00%& is not equalent null and &%varable01%& is not equalent null%]
+
+[%This text outputed, if &%varable00%& is not equalent null, but this %varable03% not affect to text output%]
+
+?%alert("Code Include - language specific code you can put in those construction")%?
+
+//% some examples with code include 
+Complex structure #1
+?%if(a==2)
+  {%?
+a is eq 2
+?%}
+  else
+  {%?
+a not eq 2
+?%}%?
+
+Complex structure #2
+?%if(a==2)
+  {%?
+a is eq 2
+?%}
+  else
+  {%?
+a not eq 2, but eq %a%
+?%}%?
+
+Complex structure #3
+?%for(var i=0;i<10;++i)
+  {%?
+i is %i%
+?%}%?
+
+!%But how can you write text that contain toupl specific tags such as
+/% block comment %/ but this comment will be print %)
+//% and line comment too
+?% even codeinclude! %?
+and %varable%
+and if construction [% &%varable07%& %]
+We don`t foget leave you ability to write even so super tags! Please !% %!%!(must be twice) :)
+%!
+And this super tag worg everywere
+?% alert("In code. 100!%%%!") %?
+%("In varable. !%@%_%@%!"+"this for coplexy").indexOf("complexy")%
+[% In if !%/%realy shown comment%/%! &%"!%//% and this too%!"%&% ]
+
+
