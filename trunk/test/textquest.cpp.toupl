@@ -1,0 +1,75 @@
+?%
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+/*
+template<class _C>
+bool _fpT(_C c);
+{
+  return c!=0;
+}
+*/
+/*
+template<class _Char>
+bool _fpT<const basic_string<_Char>&>(const basic_string<_Char>& c)
+{
+  return c.empty();
+}
+*/
+/*
+template<>
+bool _fpT<std::string&>(std::string& c)
+{
+  return c.empty();
+}
+*/
+bool _fpT(const std::string& c)
+{
+  return !c.empty();
+}
+
+string fpText;
+
+void _flush()
+{
+  cout << fpText;
+  fpText.clear();
+}
+
+int main()
+{
+%?Hello! My name is Vasya Pupkin.
+?%_flush();
+  
+  string name;
+
+  %?What is your name:?%
+  _flush();
+  cin >> name;
+  %?Hello %name%!
+Good Day! :) I am is 15 years old.
+And how old you:?%
+  _flush();
+  
+  int old;
+  
+  cin >> old;
+  
+  if(old>15)
+  {
+  %?Wow! you so old! :)
+  ?%
+  }
+  else
+  {
+  %?You so young =\
+  ?%
+  }
+  _flush();
+  
+  return 0;
+}
+%?

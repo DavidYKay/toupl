@@ -1,0 +1,11 @@
+/% minimal test %/
+?%
+int i;
+int n=100;
+while(i<n)
+{
+%?[%arr!%[%!%i%!%]%!=&%arr[i]%&%]
+?%
+}
+%?
+//% end of minimal test

@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1244755131 source:i:\tools\toupl\main.cpp
+	"common.hpp"
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"string.hpp"
+	"quoted.hpp"
+	"parser.hpp"
+	"touplparser.hpp"
+	"args.hpp"
+	"langs/js.hpp"
+	"langs/cpp.hpp"
+	"langs/java.hpp"
+	"langs/csharp.hpp"
+	"langs/python.hpp"
+	"langs/php.hpp"
+	"langs/lua.hpp"
+	"langs/vb.hpp"
+
+1244757321 i:\tools\toupl\string.hpp
+	"common.hpp"
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<string>
+
+1244665047 i:\tools\toupl\common.hpp
+	"config.hpp"
+	<assert.h>
+
+1244663077 source:i:\tools\toupl\parser.cpp
+	"parser.hpp"
+
+1244671550 i:\tools\toupl\parser.hpp
+	"common.hpp"
+	<map>
+	<cstdarg>
+	"string.hpp"
+	"args.hpp"
+
+1244676499 source:i:\tools\toupl\touplparser.cpp
+	"touplparser.hpp"
+
+1244676512 i:\tools\toupl\touplparser.hpp
+	"common.hpp"
+	<vector>
+	"string.hpp"
+	"parser.hpp"
+
+1244593460 source:i:\tools\toupl\string.cpp
+	"string.hpp"
+
+1244756966 i:\tools\toupl\quoted.hpp
+	"common.hpp"
+	"string.hpp"
+
+1244662900 i:\tools\toupl\js.hpp
+	"common.hpp"
+	"string.hpp"
+	"quoted.hpp"
+
+1244437808 i:\tools\toupl\args.hpp
+	"common.hpp"
+	"string.hpp"
+
+1244437877 source:i:\tools\toupl\args.cpp
+	"args.hpp"
+
+1244747748 i:\tools\toupl\config.hpp
+
+1244780869 source:i:\tools\toupl\langs\js.cpp
+	"js.hpp"
+
+1244676565 i:\tools\toupl\langs\js.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244757082 source:i:\tools\toupl\quoted.cpp
+	"quoted.hpp"
+
+1244684598 i:\tools\toupl\langs\cpp.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244676684 source:i:\tools\toupl\langs\cpp.cpp
+	"cpp.hpp"
+
+1244690715 source:i:\tools\toupl\langs\java.cpp
+	"java.hpp"
+
+1244685509 i:\tools\toupl\langs\java.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244690692 source:i:\tools\toupl\langs\csharp.cpp
+	"csharp.hpp"
+
+1244685526 i:\tools\toupl\langs\csharp.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244690378 source:i:\tools\toupl\langs\python.cpp
+	"python.hpp"
+
+1244781072 i:\tools\toupl\langs\python.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244690930 i:\tools\toupl\langs\php.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244696999 source:i:\tools\toupl\langs\php.cpp
+	"php.hpp"
+
+1244698204 i:\tools\toupl\langs\lua.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+
+1244703348 source:i:\tools\toupl\langs\lua.cpp
+	"lua.hpp"
+
+1244756934 source:i:\tools\toupl\langs\vb.cpp
+	"vb.hpp"
+
+1244756807 i:\tools\toupl\langs\vb.hpp
+	"../common.hpp"
+	"../string.hpp"
+	"../touplparser.hpp"
+	"../quoted.hpp"
+

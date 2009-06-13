@@ -1,0 +1,18 @@
+?%
+for(var i=0;i<this.maxI_;++i)
+{
+  for(var j=0;j<this.maxJ_;++j)
+  {
+    if(i==j && i==((this.maxI_-1)/2))
+    %?*?%
+    else if(i==j)
+    %?\?%
+    else if (i==(this.maxJ_-j-1))
+    %?/?%
+    else
+    %? ?%
+  }
+  %?
+?%
+}
+%?
